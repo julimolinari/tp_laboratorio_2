@@ -1,0 +1,5 @@
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\Entidades\bin\Debug\Entidades.dll
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\Entidades\bin\Debug\Entidades.pdb
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\Entidades\obj\Debug\Entidades.dll
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\Entidades\obj\Debug\Entidades.pdb

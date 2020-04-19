@@ -1,0 +1,11 @@
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.Cache
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.csprojResolveAssemblyReference.cache
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
