@@ -17,6 +17,16 @@ namespace Entidades
         {
             this.numero = 0;
         }
+        public Numero(double numero)
+        {
+            this.numero = numero;
+        }
+        public Numero(string strNumero)
+        {
+            double aux;
+            double.TryParse(strNumero, out aux)
+            this.numero = aux;
+        }
         /// <summary>
         /// Función para validar que el valor ingresado sea númerico, si no devuelve 0.
         /// </summary>
@@ -72,7 +82,7 @@ namespace Entidades
                     }
                 }else if(arrayNumerico[i] != '0')
                 {
-                    return "No es número binario.";
+                    return "Valor inválido";
                 }
             }
             return resultado.ToString();
@@ -127,7 +137,7 @@ namespace Entidades
                 resultado = DecimalBinario(aux);
             }else
             {
-                resultado = "No es un valor númerico.";
+                resultado = "Valor inválido";
             }          
             
             return resultado;

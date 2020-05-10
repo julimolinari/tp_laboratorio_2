@@ -9,3 +9,6 @@ C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculado
 C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\bin\Debug\Entidades.dll
 C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\bin\Debug\Entidades.pdb
 C:\Users\julieta.molinari\Desktop\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.pdb

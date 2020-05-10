@@ -13,7 +13,7 @@ namespace Entidades
         /// </summary>
         /// <param name="operador"></param>
         /// <returns>el operador ingresado, o "+" si no es valido lo ingresado</returns>
-        private static string ValidarOperar(string operador)
+        private static string ValidarOperador(string operador)
         {
             string operAux = "+";
             if (operador == "+" || operador == "-" || operador == "/" || operador == "*")
@@ -33,7 +33,7 @@ namespace Entidades
         public static double Operar(Numero num1, Numero num2,string operador)
         {
             double resultado = 0;
-            string operadorAux = Calculadora.ValidarOperar(operador);
+            string operadorAux = Calculadora.ValidarOperador(operador);
             switch (operadorAux)
             {
                 case "+":
