@@ -70,13 +70,18 @@ namespace Entidades
                 switch (tipo)
                 {
                     case ETipo.Camioneta:
-                        sb.AppendLine(v.Mostrar());
+                        if (v is Camioneta)                        
+                            sb.AppendLine(v.Mostrar());                            
                         break;
+
                     case ETipo.Moto:
-                        sb.AppendLine(v.Mostrar());
+                        if (v is Moto)
+                            sb.AppendLine(v.Mostrar());
                         break;
+
                     case ETipo.Automovil:
-                        sb.AppendLine(v.Mostrar());
+                        if (v is Automovil)
+                            sb.AppendLine(v.Mostrar());
                         break;
                     default:
                         sb.AppendLine(v.Mostrar());
@@ -116,11 +121,11 @@ namespace Entidades
         /// <returns></returns>
         public static Estacionamiento operator -(Estacionamiento c, Vehiculo p)
         {
-            foreach (Vehiculo v in c.vehiculos)
+            for (int i = 0; i < c.vehiculos.Count; i++)           
             {
-                if (v == p)
+                if (c.vehiculos[i] == p)
                 {
-                    c.vehiculos.Remove(p);
+                    c.vehiculos.Remove(c.vehiculos[i]);                    
                 }
             }
 

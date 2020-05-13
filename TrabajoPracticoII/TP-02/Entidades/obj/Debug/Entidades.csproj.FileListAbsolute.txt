@@ -15,3 +15,8 @@ C:\Users\julieta.molinari\Desktop\TP-02LaboII\TP-02\Entidades\bin\Debug\Entidade
 C:\Users\julieta.molinari\Desktop\TP-02LaboII\TP-02\Entidades\bin\Debug\Entidades.pdb
 C:\Users\julieta.molinari\Desktop\TP-02LaboII\TP-02\Entidades\obj\Debug\Entidades.dll
 C:\Users\julieta.molinari\Desktop\TP-02LaboII\TP-02\Entidades\obj\Debug\Entidades.pdb
+C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoII\TP-02\Entidades\bin\Debug\Entidades.dll
+C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoII\TP-02\Entidades\bin\Debug\Entidades.pdb
+C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoII\TP-02\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoII\TP-02\Entidades\obj\Debug\Entidades.dll
+C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoII\TP-02\Entidades\obj\Debug\Entidades.pdb

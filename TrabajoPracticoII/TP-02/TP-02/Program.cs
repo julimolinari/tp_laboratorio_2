@@ -15,7 +15,7 @@ namespace TP_02_2018
             Console.SetWindowPosition(0, 0);
             Console.SetWindowSize(Console.LargestWindowWidth / 2, Console.LargestWindowHeight - 2);
             // Nombre del alumno
-            Console.Title = "";
+            Console.Title = "Julieta Molinari";
             Estacionamiento estacionamiento = new Estacionamiento(6);
             Moto c1 = new Moto(Vehiculo.EMarca.BMW, "ASD012", ConsoleColor.Black);
             Moto c2 = new Moto(Vehiculo.EMarca.Honda, "ASD913", ConsoleColor.Red);
