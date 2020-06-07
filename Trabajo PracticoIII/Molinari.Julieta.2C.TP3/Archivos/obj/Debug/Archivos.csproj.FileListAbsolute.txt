@@ -1,0 +1,4 @@
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Archivos\bin\Debug\Archivos.dll
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Archivos\bin\Debug\Archivos.pdb
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Archivos\obj\Debug\Archivos.dll
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Archivos\obj\Debug\Archivos.pdb

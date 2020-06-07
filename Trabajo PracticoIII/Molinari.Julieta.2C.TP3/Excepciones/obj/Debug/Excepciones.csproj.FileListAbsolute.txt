@@ -1,0 +1,4 @@
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Excepciones\obj\Debug\Excepciones.pdb

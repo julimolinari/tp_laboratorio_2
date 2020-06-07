@@ -1,0 +1,37 @@
+CLASE: Programacion
+INSTRUCTOR: 
+Nombre: Juan
+Apellido: Lopez
+DNI: 12224458
+Nacionalidad: Argentino
+
+Legajo: 1
+
+CLASES DEL DIA: 
+Legislacion
+Programacion
+
+
+ALUMNOS: 
+Nombre: Juan
+Apellido: Lopez
+DNI: 12234456
+Nacionalidad: Argentino
+
+Legajo: 1
+
+TOMA LA CLASE DE Programacion
+
+Estado de se cuenta: Becado
+
+Nombre: Carlos
+Apellido: Gonzalez
+DNI: 12236456
+Nacionalidad: Argentino
+
+Legajo: 5
+
+TOMA LA CLASE DE Programacion
+
+Estado de se cuenta: AlDia
+

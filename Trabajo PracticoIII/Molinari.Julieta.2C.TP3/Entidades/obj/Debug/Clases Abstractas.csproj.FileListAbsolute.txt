@@ -1,0 +1,7 @@
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Entidades\bin\Debug\Entidades.dll
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Entidades\bin\Debug\Entidades.pdb
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Entidades\bin\Debug\Excepciones.dll
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Entidades\bin\Debug\Excepciones.pdb
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Entidades\obj\Debug\Clases Abstractas.csprojResolveAssemblyReference.cache
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Entidades\obj\Debug\Entidades.dll
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP3\Entidades\obj\Debug\Entidades.pdb
