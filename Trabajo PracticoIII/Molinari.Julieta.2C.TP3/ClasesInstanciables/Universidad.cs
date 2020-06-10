@@ -47,7 +47,7 @@ namespace Clases_Instanciables
         {
             Xml<Universidad> xmlArchivo = new Xml<Universidad>();
 
-            return xmlArchivo.Guardar("Universidad.Xml", uni);
+            return xmlArchivo.Guardar("C://Universidad.Xml", uni);
 
         }
 
@@ -55,7 +55,7 @@ namespace Clases_Instanciables
         {
             Universidad uni;
             Xml<Universidad> xmlArchivo = new Xml<Universidad>();
-            xmlArchivo.Leer("Universidad.Xml", out uni);
+            xmlArchivo.Leer("C://Universidad.Xml", out uni);
 
             return uni;
 

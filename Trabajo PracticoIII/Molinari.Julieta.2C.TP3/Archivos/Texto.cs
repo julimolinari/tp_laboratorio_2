@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Excepciones;
 
 namespace Archivos
 {
@@ -27,19 +28,22 @@ namespace Archivos
         {
             bool resultado = false;
             StreamReader reader;
-
-            if (File.Exists(archivo))
-            {
-                reader = new StreamReader(archivo);
-                datos = reader.ReadToEnd();
-                reader.Close();
-                resultado = true;
+            datos = "";
+            
+                if (File.Exists(archivo))
+                {
+                    reader = new StreamReader(archivo);
+                    datos = reader.ReadToEnd();
+                    reader.Close();
+                    resultado = true;
             }
             else
             {
-                datos = "";
+                throw new ArchivosException(new Exception());
             }
-
+           
+           
+            
             return resultado;
         }
 

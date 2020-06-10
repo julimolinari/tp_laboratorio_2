@@ -36,9 +36,16 @@ namespace Clases_Instanciables
 
         protected override string MostrarDatos()
         {
+            string auxEstado;
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine(base.MostrarDatos());            
-            sb.AppendLine("ESTADO DE CUENTA: " + this.estadoCuenta);
+            sb.AppendLine(base.MostrarDatos());
+            if (this.estadoCuenta == EEstadoCuenta.AlDia)
+            {
+                auxEstado = "Cuota al día";
+            }
+            else
+                auxEstado = this.estadoCuenta.ToString();           
+            sb.AppendLine("ESTADO DE CUENTA: " + auxEstado);
             sb.AppendLine(ParticiparEnClase());
 
             return sb.ToString();
@@ -47,7 +54,7 @@ namespace Clases_Instanciables
         protected override string ParticiparEnClase()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("TOMA LA CLASE DE " + this.claseQueToma);
+            sb.AppendLine("TOMA LA CLASE DE " + this.claseQueToma);            
             return sb.ToString();
         }
 

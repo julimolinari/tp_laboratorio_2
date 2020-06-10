@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
 using System.IO;
+using Excepciones;
 
 namespace Archivos
 {
@@ -41,7 +42,8 @@ namespace Archivos
         {
             bool resultado = false;
             XmlTextReader reader;
-            XmlSerializer ser;             
+            XmlSerializer ser;
+            datos = default(T);
 
             if (File.Exists(archivo))
             {
@@ -52,7 +54,7 @@ namespace Archivos
                 resultado = true;
             }else
             {
-                datos = default(T);
+                throw new ArchivosException(new Exception());
             }
 
             return resultado;

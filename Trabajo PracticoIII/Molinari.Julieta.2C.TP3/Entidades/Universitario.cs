@@ -24,7 +24,7 @@ namespace EntidadesAbstractas
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.ToString());
-            sb.AppendLine("LEGAJO NÚMERO: " + this.legajo);
+            sb.AppendFormat("LEGAJO NÚMERO: {0} \n" ,this.legajo);
 
             return sb.ToString();
         }

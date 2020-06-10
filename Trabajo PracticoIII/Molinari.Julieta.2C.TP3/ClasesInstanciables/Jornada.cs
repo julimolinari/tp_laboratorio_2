@@ -37,7 +37,7 @@ namespace Clases_Instanciables
             bool resultado = false;
             Texto archivoTexto = new Texto();
 
-            if (archivoTexto.Guardar("Jornada.txt",jornada.ToString()))
+            if (archivoTexto.Guardar("C://Jornada.txt",jornada.ToString()))
             {
                 resultado = true;
             }
@@ -60,7 +60,7 @@ namespace Clases_Instanciables
         {
             string aux;
             Texto archivoLeer = new Texto();
-            archivoLeer.Leer("Jornada.txt", out aux);
+            archivoLeer.Leer("C://Jornada.txt", out aux);
             return aux;
            
         }
@@ -91,14 +91,13 @@ namespace Clases_Instanciables
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("CLASE: " + this.clase);
-            sb.AppendLine("INSTRUCTOR: " + this.instructor);
+            sb.AppendFormat("CLASE DE {0} POR {1}" ,this.clase , this.instructor);            
             sb.AppendLine("ALUMNOS: ");
             foreach (Alumno item in this.alumnos) 
             {
                 sb.AppendLine(item.ToString());
             }
-
+            sb.AppendLine("<-------------------------------------------------------------------------->");
             return sb.ToString();
         }
 
