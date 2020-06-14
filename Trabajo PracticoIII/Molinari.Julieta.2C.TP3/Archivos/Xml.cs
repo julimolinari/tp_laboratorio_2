@@ -12,6 +12,12 @@ namespace Archivos
 {
     public class Xml <T> : IArchivo<T>
     {
+        /// <summary>
+        /// Genera un archivo xml y guarda los datos en el path pedido
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="datos"></param>
+        /// <returns></returns>
         public bool Guardar(string archivo, T datos)
         {
             bool resultado = false;
@@ -38,6 +44,12 @@ namespace Archivos
             return resultado;
         }
 
+        /// <summary>
+        /// Lee un archivo xml del path pasado por parametros
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="datos"></param>
+        /// <returns></returns>
         public bool Leer(string archivo, out T datos)
         {
             bool resultado = false;

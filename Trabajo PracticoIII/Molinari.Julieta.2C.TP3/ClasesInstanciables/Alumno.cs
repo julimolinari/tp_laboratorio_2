@@ -12,21 +12,47 @@ namespace Clases_Instanciables
         Universidad.EClases claseQueToma;
         EEstadoCuenta estadoCuenta;
 
+        /// <summary>
+        /// Constructor por defecto
+        /// </summary>
         public Alumno() :base()
         {
 
         }
+        /// <summary>
+        /// Constructor con parametros
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
+        /// <param name="claseQueToma"></param>
         public Alumno(int id, string nombre,string apellido,string dni,ENacionalidad nacionalidad, Universidad.EClases claseQueToma)
             :base(id,nombre,apellido,dni,nacionalidad)
         {
             this.claseQueToma = claseQueToma;
         }
 
+        /// <summary>
+        /// Constructor con parametros
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
+        /// <param name="claseQueToma"></param>
+        /// <param name="estadoCuenta"></param>
         public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma,EEstadoCuenta estadoCuenta)
             : this(id, nombre, apellido, dni, nacionalidad, claseQueToma)
         {
             this.estadoCuenta = estadoCuenta;
         }
+
+        /// <summary>
+        /// Enumerado con el estado de cuenta de los alumnos
+        /// </summary>
         public enum EEstadoCuenta
         {
             AlDia,
@@ -34,6 +60,10 @@ namespace Clases_Instanciables
             Becado
         }
 
+        /// <summary>
+        /// Muestra los datos de los alumnos
+        /// </summary>
+        /// <returns></returns>
         protected override string MostrarDatos()
         {
             string auxEstado;
@@ -51,6 +81,10 @@ namespace Clases_Instanciables
             return sb.ToString();
         }
 
+        /// <summary>
+        /// Devuelve la clase que el alumno toma
+        /// </summary>
+        /// <returns></returns>
         protected override string ParticiparEnClase()
         {
             StringBuilder sb = new StringBuilder();
@@ -58,11 +92,21 @@ namespace Clases_Instanciables
             return sb.ToString();
         }
 
+        /// <summary>
+        /// Hace publico lo que devuelve Mostrar datos
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return this.MostrarDatos();
         }
 
+        /// <summary>
+        /// Sobrecarga == compara si un alumno esta tomando una clase
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="clase"></param>
+        /// <returns></returns>
         public static bool operator ==(Alumno a, Universidad.EClases clase)
         {
             bool resultado = false;
@@ -73,6 +117,12 @@ namespace Clases_Instanciables
             return resultado;
         }
 
+        /// <summary>
+        /// sobrecarga != se fija si un alumno esta tomando una clase
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="clase"></param>
+        /// <returns></returns>
         public static bool operator !=(Alumno a, Universidad.EClases clase)
         {
             bool resultado = false;

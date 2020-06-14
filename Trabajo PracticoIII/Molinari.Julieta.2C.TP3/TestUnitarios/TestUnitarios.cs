@@ -10,6 +10,9 @@ namespace TestUnitarios
     [TestClass]
     public class TestUnitarios
     {
+        /// <summary>
+        /// Testea que se lance la excepcion DniInvalidoException
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(DniInvalidoException))]
         public void DniInvalidoTest()
@@ -17,6 +20,10 @@ namespace TestUnitarios
             Alumno alumno = new Alumno(123, "Test", "Unitario", "9999999a", EntidadesAbstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Laboratorio);
         }
 
+
+        /// <summary>
+        /// Testea que se lance la excepcion ArchivosException
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArchivosException))]
         public void ArchivoTextoTest()
@@ -27,6 +34,9 @@ namespace TestUnitarios
             
         }
 
+        /// <summary>
+        /// Testea que se lance la excepcion ArchivosException
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArchivosException))]
         public void ArchivoXmlTest()
@@ -37,6 +47,9 @@ namespace TestUnitarios
 
         }
 
+        /// <summary>
+        /// Testea que el atributo Alumnos se haya instanciado
+        /// </summary>
         [TestMethod]        
         public void InstanciaColeccionTest()
         {

@@ -9,6 +9,17 @@ namespace EntidadesAbstractas
     public abstract class Universitario : Persona
     {
         int legajo;
+
+        /// <summary>
+        /// Propiedad para legajo
+        /// </summary>
+        public int Legajo
+        {
+            get { return this.legajo; }
+            set { this.legajo = value; }
+
+        }
+
         /// <summary>
         /// Constrcutor por defecto
         /// </summary>
@@ -27,7 +38,7 @@ namespace EntidadesAbstractas
         public Universitario(int legajo,string nombre,string apellido,string dni,ENacionalidad nacionalidad)
             :base (nombre,apellido,dni,nacionalidad)
         {
-            this.legajo = legajo;
+            this.Legajo = legajo;
         }
         /// <summary>
         /// Retorna los datos del universitario
@@ -37,7 +48,7 @@ namespace EntidadesAbstractas
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.ToString());
-            sb.AppendFormat("LEGAJO NÚMERO: {0} \n" ,this.legajo);
+            sb.AppendFormat("LEGAJO NÚMERO: {0} \n" ,this.Legajo);
 
             return sb.ToString();
         }

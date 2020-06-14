@@ -16,33 +16,59 @@ namespace Clases_Instanciables
         List<Profesor> profesores;
 
 
+        /// <summary>
+        /// Propiedad Alumnos
+        /// </summary>
         public List<Alumno> Alumnos
         {
             get { return this.alumnos; }
             set { this.alumnos = value; }
         }
+
+        /// <summary>
+        /// Propiedad Instructores
+        /// </summary>
         public List<Profesor> Instructores
         {
             get { return this.profesores; }
             set { this.profesores = value; }
         }
+
+        /// <summary>
+        /// Propiedad Jornada
+        /// </summary>
         public List<Jornada> Jornadas
         {
             get { return this.jornada; }
             set { this.jornada = value; }
         }
+
+        /// <summary>
+        /// Propiedad jornada indexada
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
         public Jornada this[int i]
         {
             get { return this.jornada[i]; }
             set { this.jornada[i] = value; }
         }
 
+        /// <summary>
+        /// Constructor por defecto
+        /// </summary>
         public Universidad()
         {
             alumnos = new List<Alumno>();
             jornada = new List<Jornada>();
             profesores = new List<Profesor>();
         }
+
+        /// <summary>
+        /// Guarda los datos de la universidad en un archivo xml
+        /// </summary>
+        /// <param name="uni"></param>
+        /// <returns></returns>
         public static bool Guardar(Universidad uni)
         {
             Xml<Universidad> xmlArchivo = new Xml<Universidad>();
@@ -51,7 +77,11 @@ namespace Clases_Instanciables
 
         }
 
-        public Universidad Leer()
+        /// <summary>
+        /// Lee los datos de la universidad de un archivo xml
+        /// </summary>
+        /// <returns></returns>
+        public static Universidad Leer()
         {
             Universidad uni;
             Xml<Universidad> xmlArchivo = new Xml<Universidad>();
@@ -60,6 +90,12 @@ namespace Clases_Instanciables
             return uni;
 
         }
+
+        /// <summary>
+        /// Devuelve los datos de la universidad
+        /// </summary>
+        /// <param name="uni"></param>
+        /// <returns></returns>
         private static string MostrarDatos(Universidad uni)
         {
             StringBuilder sb = new StringBuilder();
@@ -87,6 +123,12 @@ namespace Clases_Instanciables
             return sb.ToString();
         }
 
+        /// <summary>
+        /// Sobrecarga operador == se fija si un alumno esta en la universidad
+        /// </summary>
+        /// <param name="g"></param>
+        /// <param name="a"></param>
+        /// <returns></returns>
         public static bool operator ==(Universidad g, Alumno a)
         {
             bool resultado = false;
@@ -102,11 +144,23 @@ namespace Clases_Instanciables
 
             return resultado;
         }
+        /// <summary>
+        /// Sobrecarga operador != se fija si un alumno no esta en la universidad
+        /// </summary>
+        /// <param name="g"></param>
+        /// <param name="a"></param>
+        /// <returns></returns>
         public static bool operator !=(Universidad g, Alumno a)
         {
             return !(g == a);
         }
 
+        /// <summary>
+        /// Sobrecarga operador == se fija si un profesor esta en la universidad
+        /// </summary>
+        /// <param name="g"></param>
+        /// <param name="i"></param>
+        /// <returns></returns>
         public static bool operator ==(Universidad g, Profesor i)
         {
             bool resultado = false;
@@ -119,10 +173,24 @@ namespace Clases_Instanciables
             }
             return resultado;
         }
+
+        /// <summary>
+        /// Sobrecarga operador != se fija si un profesor no esta en la universidad
+        /// </summary>
+        /// <param name="g"></param>
+        /// <param name="i"></param>
+        /// <returns></returns>
         public static bool operator !=(Universidad g, Profesor i)
         {
             return !(g == i);
         }
+
+        /// <summary>
+        /// Sobrecarga operador == retorna el 1er profesor capaz de dar esa clase
+        /// </summary>
+        /// <param name="u"></param>
+        /// <param name="clase"></param>
+        /// <returns></returns>
         public static Profesor operator ==(Universidad u, EClases clase)
         {
 
@@ -137,6 +205,12 @@ namespace Clases_Instanciables
             throw new SinProfesorException();
         }
 
+        /// <summary>
+        /// Retorna el 1er profesor que no puede dar esa clase
+        /// </summary>
+        /// <param name="u"></param>
+        /// <param name="clase"></param>
+        /// <returns></returns>
         public static Profesor operator !=(Universidad u, EClases clase)
         {
 
@@ -150,6 +224,12 @@ namespace Clases_Instanciables
             return null;
         }
 
+        /// <summary>
+        /// Sobre carga + agrega una clase a la universidad, generando una nueva jornada
+        /// </summary>
+        /// <param name="u"></param>
+        /// <param name="clase"></param>
+        /// <returns></returns>
         public static Universidad operator +(Universidad u, EClases clase)
         {
 
@@ -172,6 +252,13 @@ namespace Clases_Instanciables
 
             return u;
         }
+
+        /// <summary>
+        /// Agrega alumnos a la universidad
+        /// </summary>
+        /// <param name="u"></param>
+        /// <param name="a"></param>
+        /// <returns></returns>
         public static Universidad operator +(Universidad u, Alumno a)
         {
             if (u != a)
@@ -185,6 +272,13 @@ namespace Clases_Instanciables
 
             return u;
         }
+
+        /// <summary>
+        /// Agrega profesores a la universidad
+        /// </summary>
+        /// <param name="u"></param>
+        /// <param name="i"></param>
+        /// <returns></returns>
         public static Universidad operator +(Universidad u, Profesor i)
         {
             if (u != i)
@@ -195,11 +289,19 @@ namespace Clases_Instanciables
             return u;
         }
 
+
+        /// <summary>
+        /// Hace publicos los datos de la universidad
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return MostrarDatos(this);
         }
 
+        /// <summary>
+        /// Enumerado con las clases
+        /// </summary>
         public enum EClases
         {
             Programacion,
