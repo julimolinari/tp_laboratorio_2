@@ -14,6 +14,9 @@ namespace EntidadesAbstractas
         ENacionalidad nacionalidad;
         int dni;
 
+        /// <summary>
+        /// Constructor de instancia
+        /// </summary>
         public Persona()
         {
             this.apellido = "";
@@ -21,6 +24,12 @@ namespace EntidadesAbstractas
             this.dni = 0;
         }
 
+        /// <summary>
+        /// Constructor con parametros
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="nacionalidad"></param>
         public Persona(string nombre,string apellido, ENacionalidad nacionalidad)
         {
             this.nombre = nombre;
@@ -28,12 +37,26 @@ namespace EntidadesAbstractas
             this.nacionalidad = nacionalidad;
         }
 
+        /// <summary>
+        /// Constructor con parametros
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
         public Persona(string nombre, string apellido,int dni, ENacionalidad nacionalidad)
             :this (nombre,apellido,nacionalidad)
         {
             this.dni = dni;
         }
 
+        /// <summary>
+        /// Constructor con parametros
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
         public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad)
             :this (nombre,apellido,nacionalidad)
         {
@@ -41,7 +64,9 @@ namespace EntidadesAbstractas
         }
 
 
-
+        /// <summary>
+        /// Propiedad Nombre
+        /// </summary>
         public string Nombre
         {
             get { return this.nombre; }
@@ -55,7 +80,9 @@ namespace EntidadesAbstractas
                 }
         }
 
-        
+        /// <summary>
+        /// Propiedad Apellido
+        /// </summary>
         public string Apellido
         {
             get { return this.apellido; }
@@ -70,17 +97,27 @@ namespace EntidadesAbstractas
             }
         }
 
+        /// <summary>
+        /// Propiedad Nacionalidad
+        /// </summary>
         public ENacionalidad Nacionalidad
         {
             get { return this.nacionalidad; }
             set { this.nacionalidad = value;}
         }
-                
+
+        /// <summary>
+        /// Propiedad Dni de tipo int
+        /// </summary>
         public int DNI
         {
             get { return this.dni; }
             set { this.dni = ValidarDni(this.nacionalidad, value); }
         }
+
+        /// <summary>
+        /// Propiedad Dni de tipo string
+        /// </summary>
         public string StringToDNI
         {
             set
@@ -89,6 +126,11 @@ namespace EntidadesAbstractas
             }
         }
 
+        /// <summary>
+        /// Validacion de nombre y apellido
+        /// </summary>
+        /// <param name="dato"></param>
+        /// <returns></returns>
         private bool ValidarNombreApellido(string dato)
         {
             bool resultado = false;
@@ -98,17 +140,23 @@ namespace EntidadesAbstractas
             }
             return resultado;
         }
+        /// <summary>
+        /// Valida el Dni enviado como string
+        /// </summary>
+        /// <param name="nacionalidad"></param>
+        /// <param name="dato"></param>
+        /// <returns></returns>
         private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
             return ValidarDni(nacionalidad, dato.ToString());
         }
 
         /// <summary>
-        /// Valida el Dni enviado como entero
+        /// Valida el Dni enviado como int
         /// </summary>
-        /// <param name="nacionalidad">Nacionalidad de la persona</param>
-        /// <param name="dato">Dni enviado de la persona</param>
-        /// <returns>Dni validado según nacionalidad</returns>
+        /// <param name="nacionalidad"></param>
+        /// <param name="dato"></param>
+        /// <returns></returns>
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
             int auxDni = 0;
@@ -130,7 +178,10 @@ namespace EntidadesAbstractas
             return auxDni;
         }
 
-
+        /// <summary>
+        /// Hace publicos los datos de la clas
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
@@ -140,6 +191,9 @@ namespace EntidadesAbstractas
 
             return sb.ToString();
         }
+        /// <summary>
+        /// Enumerado con las nacionalidades posibles
+        /// </summary>
         public enum ENacionalidad
         {
             Argentino,
