@@ -112,10 +112,9 @@ namespace MiFormulario
             }
             try
             {
-                if (elemento.MostrarDatos(elemento).Guardar("salida.txt"))
-                {
-                    MessageBox.Show("Se Guardó el archivo de texto");
-                }
+                elemento.MostrarDatos(elemento).Guardar("salida.txt");
+                
+               
             }
             catch (Exception)
             {
