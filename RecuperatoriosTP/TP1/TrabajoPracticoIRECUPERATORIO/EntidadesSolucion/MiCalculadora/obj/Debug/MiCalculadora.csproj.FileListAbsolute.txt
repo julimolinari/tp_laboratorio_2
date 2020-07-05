@@ -20,3 +20,14 @@ C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoI\EntidadesSolucion\MiC
 C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
 C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
 C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoI\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.Cache
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.csprojResolveAssemblyReference.cache
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.Cache

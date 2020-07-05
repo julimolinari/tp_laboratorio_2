@@ -8,3 +8,8 @@ C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoI\EntidadesSolucion\Ent
 C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoI\EntidadesSolucion\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoI\EntidadesSolucion\Entidades\obj\Debug\Entidades.dll
 C:\Users\julieta.molinari\Desktop\TPlabo2\TrabajoPracticoI\EntidadesSolucion\Entidades\obj\Debug\Entidades.pdb
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\Entidades\bin\Debug\Entidades.dll
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\Entidades\bin\Debug\Entidades.pdb
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\Entidades\obj\Debug\Entidades.dll
+C:\Users\julieta.molinari\Desktop\TPlabo2\RecuperatoriosTP\TP1\TrabajoPracticoIRECUPERATORIO\EntidadesSolucion\Entidades\obj\Debug\Entidades.pdb
