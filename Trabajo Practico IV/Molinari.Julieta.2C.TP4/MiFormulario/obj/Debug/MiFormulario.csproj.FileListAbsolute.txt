@@ -1,0 +1,11 @@
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\MiFormulario\bin\Debug\MiFormulario.exe.config
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\MiFormulario\obj\Debug\MiFormulario.csprojResolveAssemblyReference.cache
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\MiFormulario\obj\Debug\MiFormulario.FrmPpal.resources
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\MiFormulario\obj\Debug\MiFormulario.Properties.Resources.resources
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\MiFormulario\obj\Debug\MiFormulario.csproj.GenerateResource.Cache
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\MiFormulario\bin\Debug\MiFormulario.exe
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\MiFormulario\bin\Debug\MiFormulario.pdb
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\MiFormulario\bin\Debug\Entidades.dll
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\MiFormulario\bin\Debug\Entidades.pdb
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\MiFormulario\obj\Debug\MiFormulario.exe
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\MiFormulario\obj\Debug\MiFormulario.pdb

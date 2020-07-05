@@ -53,7 +53,7 @@ namespace Clases_Instanciables
             bool resultado = false;
             Texto archivoTexto = new Texto();
 
-            if (archivoTexto.Guardar("C://Jornada.txt",jornada.ToString()))
+            if (archivoTexto.Guardar("Jornada.txt",jornada.ToString()))
             {
                 resultado = true;
             }

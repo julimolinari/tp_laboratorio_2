@@ -119,12 +119,17 @@ namespace Consola
                 int jornada = 0;
                 Jornada.Guardar(uni[jornada]);
                 Console.WriteLine("Archivo de Jornada {0} guardado.", jornada);
+
                 //Console.WriteLine(Jornada.Leer());                
             }
             catch (ArchivosException e)
             {
                 Console.WriteLine(e.Message);
             }
+            Console.ReadKey();
+            Universidad uniPrueba;
+            uniPrueba = Universidad.Leer();
+            Console.WriteLine(uniPrueba);
             Console.ReadKey();
         }
     }

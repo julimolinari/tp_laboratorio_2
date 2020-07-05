@@ -1,0 +1,8 @@
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\TestsUnitarios\bin\Debug\TestsUnitarios.dll
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\TestsUnitarios\bin\Debug\TestsUnitarios.pdb
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\TestsUnitarios\bin\Debug\Entidades.dll
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\TestsUnitarios\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\TestsUnitarios\bin\Debug\Entidades.pdb
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\TestsUnitarios\obj\Debug\TestsUnitarios.csprojResolveAssemblyReference.cache
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\TestsUnitarios\obj\Debug\TestsUnitarios.dll
+C:\Users\julieta.molinari\documents\visual studio 2015\Projects\Molinari.Julieta.2C.TP4\TestsUnitarios\obj\Debug\TestsUnitarios.pdb

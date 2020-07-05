@@ -1,36 +1,29 @@
-CLASE: Programacion
-INSTRUCTOR: Nombre: Juan
-Apellido: Lopez
-DNI: 12224458
+CLASE DE Programacion POR NOMBRE COMPLETO: Juan, Lopez
 Nacionalidad: Argentino
 
-LEGAJO NÚMERO: 1
+LEGAJO NÚMERO: 1 
 
 CLASES DEL DIA: 
 Programacion
-Legislacion
-
+Programacion
 
 ALUMNOS: 
-Nombre: Juan
-Apellido: Lopez
-DNI: 12234456
+NOMBRE COMPLETO: Juan, Lopez
 Nacionalidad: Argentino
 
-LEGAJO NÚMERO: 1
+LEGAJO NÚMERO: 1 
 
 ESTADO DE CUENTA: Becado
 TOMA LA CLASE DE Programacion
 
 
-Nombre: Carlos
-Apellido: Gonzalez
-DNI: 12236456
+NOMBRE COMPLETO: Carlos, Gonzalez
 Nacionalidad: Argentino
 
-LEGAJO NÚMERO: 5
+LEGAJO NÚMERO: 5 
 
-ESTADO DE CUENTA: AlDia
+ESTADO DE CUENTA: Cuota al día
 TOMA LA CLASE DE Programacion
 
 
+<-------------------------------------------------------------------------->
